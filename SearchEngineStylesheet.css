@@ -1,0 +1,134 @@
+#logo{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top:20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+	animation: bgcolor infinite 5s
+}
+@keyframes bgcolor{
+	0%{
+		background:#002022 ;
+	}
+	20%{
+		background: #002025 ;
+	}
+	40%{
+		background: #002030 ;
+	}
+	60%{
+		background: #002025 ;
+	}
+	80%{
+		background: #002022;
+	}
+	100%{
+		background: #002020 ;
+	}
+}
+
+
+#search_engine_holder{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+#header_name{
+	position: relative;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	font-family: Arial;
+	font-size: 5em;
+	font-weight: bold;
+}
+
+#go_name{
+	color: #00C853;
+	text-shadow: 4px 4px #1B5E20;
+}
+
+#sam_name{
+	color:  #795548;
+	text-shadow: 4px 4px #3E2723;
+}
+
+#my_name{
+	color: #26A69A;
+	text-shadow: 4px 4px #006064;
+}
+
+#serach_bar{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #212121;
+	height: 40px;
+	border-radius: 40px;
+	padding: 10px;
+}
+
+#search_input{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0 10px;
+	color: #fff;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	
+}
+
+#serach_bar:hover > #search_input{
+	width:300px;
+	padding: 0 20px;
+}
+
+#serach_bar:hover > #search_btn{
+	background: #fff
+}
+
+#search_btn{
+	color: #e74c3c;
+	float: right;
+	width: 40px;
+	height: 40px;
+	border: none;
+	outline: none;
+	border-radius: 50%;
+	background: #212121;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	transition: 0.4s;
+}
+
+#result{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 80%;
+	width: 80%;
+	border: 2px blue solid;
+}
+
+#srch_rslt{
+	color: #fff;
+	margin: 10px;
+	font-size: 3em;
+	text-shadow: 3px 3px blue;
+}
