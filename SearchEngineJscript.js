@@ -8,5 +8,5 @@ function search() {
 
 function SearchResult() {
 	v=localStorage.getItem('link');
-	document.getElementById("result").setAttribute('src','http://www.google.com');
+	document.getElementById("result").setAttribute('src',v);
 }
